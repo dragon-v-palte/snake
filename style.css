@@ -1,0 +1,103 @@
+.name {
+	font-size: 50px;
+	text-align: center;
+	margin: 20px;
+}
+
+.main {
+	display: flex;
+	flex-direction: row;
+	max-width: 768px;
+	margin: 0 auto;
+	justify-content: center;
+}
+
+.settings, 
+.info {
+	margin: 0 20px;
+}
+
+.level,
+.score,
+.best {
+	font-size: 50px;
+	margin: 10px 0;
+	background: #f7f7f7;
+	padding: 0 10px;
+	text-align: center;
+	height: 45%;	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 185px;
+}
+
+.level__text {
+	margin: 0;
+}
+
+.control {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #f7f7f7;
+	padding: 0 10px;
+	height: 45%;
+}
+
+.control__start, 
+.control__stop {
+	font-size: 30px;
+	width: 80%;
+	padding: 7px 15px;
+	cursor: pointer;
+	margin: 10px auto 0;
+	background: #ffffff;
+	border: 2px solid #000000;
+	border-radius: 4px;
+}
+
+.control__start:hover,
+.control__stop:hover {
+	background: #eeeeee;
+}
+
+.control__text {
+	text-align: center;
+	margin: 10px;
+}
+	
+.field .line {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.field .line div {
+	width: 40px;
+	height: 40px;
+	margin: 1px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	background-color: #fff;
+	transition: background-color .5s;
+}
+
+.field .line div.s {
+	background-color: #262;
+	transition: background-color .5s;
+}
+
+.field .line div.f {
+	background-color: red;
+	transition: background-color 2s;
+}
+
+.field .line div.h.s {
+	background-color: #444;
+	transition: background-color .5s;
+}
+
+	
